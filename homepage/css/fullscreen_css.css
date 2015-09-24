@@ -1,0 +1,182 @@
+.gapTop{
+    margin-top: 80px;
+}
+
+
+.gap{
+    margin: 30px;
+}
+
+.gapGallery{
+    margin-top: 53px;
+}
+
+.carousel-inner > .item > img{
+    margin: auto;
+    width: 100%;
+}
+
+/*************/
+
+body{
+    background-color: #dddddd;
+}
+
+
+
+
+.roundPic{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+}
+.roundPicWork{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.rRectanglePicWork{
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+.btnSize{
+    width: 150px;
+    height: auto;
+}
+
+.red{
+    color: #ee0000;
+}
+.yellow{
+    color: #00cc00;
+}
+.blue{
+    color: #0000cc;
+}
+
+.gray{
+    color: #aaaaaa;
+}
+
+.black{
+    color: #000000;
+}
+
+.white{
+    color: #ffffff;
+}
+
+/*******************/
+.title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.title2{
+    font-weight: bold;
+    font-size: 1.8em;
+    color: #aaaaaa;
+}
+
+.title3{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+.font0{
+    font-weight: bold;
+    color: #aaaaaa;
+}
+
+.font1{
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #A31919;
+    width: 90%;
+}
+.font2{
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #FF5E5E;
+    width: 100%;
+}
+.font3{
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #FF3385;
+    width: 65%;
+}
+.font4{
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #DB4DDB;
+    width: 70%;
+}
+.font5{
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #4747D1;
+    width: 80%;
+}
+.font6{
+    font-size: 1.5em;
+    color: #ffffff;
+    background-color: #00CC66;
+    width: 60%;
+}
+
+.font7{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #cccccc;
+}
+
+/*************************/
+.navbar{
+    background-color: #286090;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.collapse > .nav > li > a{
+    color: #ffffff;
+}
+
+.navbar-brand > span{
+    color: #ffffff;
+}
+
+.active{
+    /*background-color: #dddddd;*/
+    /*opacity: 0.3;*/
+}
+
+.iframe-container {
+    padding-bottom: 60%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.iframe-container iframe,
+.iframe-container object,
+.iframe-container embed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modal.in .modal-dialog {
+    transform: none; /*translate(0px, 0px);*/
+}

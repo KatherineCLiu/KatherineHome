@@ -1,0 +1,60 @@
+#cameraContainer {
+	position:fixed;
+	top: 40%;
+	left: 50%;
+    width:30em;
+    height:22.5em;
+    margin-top: -9em; 
+    margin-left: -15em; 
+    border: 10px solid #ccc;
+    background-color: #f3f3f3;
+	z-index:100;
+}
+
+video {
+    width:30em;
+    height:22.5em;
+}
+
+#snap {
+	position: absolute;
+	bottom: 10px;
+	left: 18em;
+}
+
+canvas {
+	display:none;
+}
+
+img {
+	padding:2px;
+	z-index:-1;
+}
+
+.blur {
+	-webkit-filter: blur(3px);
+}
+.grayscale{
+	-webkit-filter: grayscale(1);
+}
+.sepia{ 
+	-webkit-filter: sepia(1);
+}
+.bright{
+	-webkit-filter: brightness(2.5);			
+}
+.contrast{
+	-webkit-filter: contrast(5);			
+}
+.hue-rotate{
+	-webkit-filter: hue-rotate(125deg);	
+}
+.invert{
+	-webkit-filter: invert(1);			
+}
+.saturate{
+	-webkit-filter: saturate(3);			
+}
+.opacity{
+	-webkit-filter: opacity(0.3);			
+}
